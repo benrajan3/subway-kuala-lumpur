@@ -1,0 +1,13 @@
+Installing FastAPI
+
+pip install fastapi and pip install uvicorn to run the server
+
+To run the server, uvicorn main:app --reload
+
+Installing Vue
+npm install -g @vue/cli
+
+vue create proj-name
+select vue 3
+cd into proj-name
+npm run serve to run the front end
