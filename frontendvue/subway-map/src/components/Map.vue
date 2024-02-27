@@ -20,7 +20,7 @@
       const map = shallowRef(null);
   
       onMounted(() => {
-        const apiKey = 'IOoJQ69k8dO8c7KXGEQd';
+        const apiKey = 'API-KEY';
   
         const initialState = { lng: 101.6841, lat: 3.1319, zoom: 14 };
   
