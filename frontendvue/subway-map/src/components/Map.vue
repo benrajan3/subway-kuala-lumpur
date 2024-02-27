@@ -9,7 +9,7 @@
   <script>
   import { Map } from 'maplibre-gl';
   import { shallowRef, onMounted, onUnmounted, markRaw } from 'vue';
-  import * as maptilersdk from '@maptiler/sdk';
+  // import * as maptilersdk from '@maptiler/sdk';
   
   // Research: https://www.youtube.com/watch?v=8DDQ0Pnsd0I
   // API: IOoJQ69k8dO8c7KXGEQd
@@ -31,7 +31,7 @@
           zoom: initialState.zoom
         }));
 
-        const marker = new maptilersdk.Marker().setLngLat([initialState.lng,initialState.lat]).addTo(map)
+        // const marker = new maptilersdk.Marker().setLngLat([initialState.lng,initialState.lat]).addTo(map)
   
       }),
       onUnmounted(() => {

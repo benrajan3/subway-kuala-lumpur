@@ -144,12 +144,6 @@ scrape_connect_db("https://subway.com.my/find-a-subway")
 # https://www.postgresqltutorial.com/postgresql-python/connect/
 # Connecting PostgreSQL to Python 
 # DB name: subway
-       
-"""
-psql -U postgres
-CREATE DATABASE subway;
-\l to check the list of databases
-"""
-       
+             
 
 
